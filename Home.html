@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <title>FORMS</title>
+    <head>
+        <link rel="stylesheet" type="text/css" href="Grid.css">
+        <link rel="stylesheet" type="text/css" href="Style.css">
+    </head>
+    <body>
+        <section class="section-form">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="name">Name</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="email">E-mail</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="email" name="email" id="email" placeholder="Enter your mail id" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="find-us">How did you find us ?</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <select name="find-us" id="find-us">
+                        <option value= disabled selected>Select your option</option>
+                        <option value="friends">Friends</option>
+                        <option value="search">Search Engine</option>
+                        <option value="ad">Advertisement</option>
+                        <option value="other">Other Sources</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label for="news">Subscribe to our Newsletter ?</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <input type="checkbox" name="news" id="news" checked> Yes
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>Drop us a line</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <textarea name="message" placeholder="Your message here."></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <label>&nbsp;</label>
+                </div>
+                <div class="col span-2-of-3">
+                    <form action="Youin.html" target="_blank"><input type="submit" value="Submit"></form>
+                    <!-- <a href="Youin.html"><input type="submit" value="Submit"></a> -->
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

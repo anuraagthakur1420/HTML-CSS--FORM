@@ -1,0 +1,58 @@
+
+html{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    text-rendering: optimizeLegibility;
+    background-color: rgb(98, 118, 233);
+}
+
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 5600;
+    font-size: 700%;
+    text-align: center;
+    margin-top: 300px;
+}
+
+
+
+section{
+    padding: 80px 0px;
+}
+
+
+.section-form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    height: 100px;
+}
+
+input[type=checkbox]{
+    margin: 10px;
+}
